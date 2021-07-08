@@ -1,21 +1,27 @@
 package com.restful.eteration.Model;
 
+import io.swagger.annotations.ApiModelProperty;
+
 import javax.persistence.*;
 
 @Entity
 @Table
 public class Students {
 
+    @ApiModelProperty(notes = "Öğrenci ID")
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
+    @ApiModelProperty(notes = "Öğrenci İsmi")
     @Column(name = "name")
     private String name;
 
+    @ApiModelProperty(notes = "Öğrenci Soyadı")
     @Column(name = "surname")
     private String surname;
 
+    @ApiModelProperty(notes = "Öğrenci Email Adresi")
     @Column(name = "email")
     private String email;
 
