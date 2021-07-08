@@ -15,14 +15,11 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
-		<sonar.projectKey>emrecanyalcin_sonarcloud-demo</sonar.projectKey>
+		<sonar.projectKey>emrecanyalcin_eteration-restful</sonar.projectKey>
 		<sonar.organization>emrecanyalcin-github</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>8fb5225228cc83dbb214355f1d09672e3f422e65</sonar.login>
 	</properties>
-
-
-
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -62,6 +59,10 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+
+
+
+
 		</plugins>
 	</build>
 
